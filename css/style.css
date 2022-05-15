@@ -19,3 +19,37 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+html {
+  background-image: url(images/PurpleBlueBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 50%;
+  padding-top: 5vh;
+}
+
+h1, p {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  margin-top: 4%;
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.85rem;
+  margin-bottom: 4%;
+}
+section {
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 20vh;
+  border: 2px solid rgb(0, 213, 255);
+  border-radius: 5%;
+  background:rgba(0, 213, 255, 0.5);
+}
